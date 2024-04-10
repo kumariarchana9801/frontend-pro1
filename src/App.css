@@ -1,0 +1,36 @@
+.default-layout {
+  display: gird;
+  grid-template-rows: 80px auto 3rem;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+
+}
+
+main {
+  grid-area: main;
+  min-height: 88vh;
+}
+
+footer {
+  grid-area: footer;
+  background: black;
+  padding: 1rem;
+  color: white;
+  margin-top:200px;
+}
+img{
+  height: 60px;
+  border-radius: 27px;
+}
+.log{
+  color: rgb(30, 136, 174);
+}
+.button{
+  background-color: rgb(20, 120, 120);
+}
